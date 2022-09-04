@@ -4,14 +4,14 @@
 
 header {
     position: fixed;
-    bottom: 0;
+    bottom: 3vh;
     left: 5vw;
 }
 
 h1 {
     font-size: 64px;
     font-family: 'Great Vibes', cursive, sans-serif;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
 }
 
 footer {
@@ -35,7 +35,6 @@ footer {
     border: 3px solid black;
     position: fixed;
     z-index: 5;
-    display: none;
 }
 
 .closed {
