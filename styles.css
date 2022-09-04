@@ -2,10 +2,107 @@
     background-color: #C1BE9F;
 }
 
+header {
+    position: fixed;
+    bottom: 0;
+    left: 5vw;
+}
+
 h1 {
     font-size: 64px;
     font-family: 'Great Vibes', cursive, sans-serif;
+    margin-bottom: 2vh;
+}
+
+footer {
     position: absolute;
-    bottom: 0;
-    left: 5vw;
+    right: 3vw;
+    bottom: 3vh;
+}
+
+.circle {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2vw;
+    border: 5px solid black;
+    position: fixed;
+    z-index: 10;
+}
+.info {
+    width: clamp(8vw, 12vw, 15vw);
+    min-height: 20vh;
+    background-color: white;
+    border: 3px solid black;
+    position: fixed;
+    z-index: 5;
+    display: none;
+}
+
+.closed {
+    background-color: black;
+}
+
+#point-start {
+    left: 8vw;
+    top: 10vh;
+}
+
+#point1 {
+    left: 30vw;
+    top: 20vh;
+}
+
+#info1 {
+    left: 34vw;
+    bottom: 72vh;
+}
+
+#point2 {
+    left: 20vw;
+    top: 45vh;
+}
+
+#info2 {
+    right: 81vw;
+    top: 40vh;
+}
+
+#point3 {
+    left: 46vw;
+    top: 67vh;
+}
+
+#info3 {
+    left: 41vw;
+    bottom: 35vh;
+}
+
+#point4 {
+    left: 66vw;
+    top: 9vh;
+}
+
+#info4 {
+    left: 61vw;
+    bottom: 63vh;
+}
+
+#point5 {
+    left: 85vw;
+    top: 47vh;
+}
+
+#info5 {
+    left: 81vw;
+    top: 25vh;
+}
+
+#point-end {
+    left: 72vw;
+    top: 76vh;
+}
+
+#finish {
+    left: 76vw;
+    top: 67vh;
 }
