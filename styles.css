@@ -1,0 +1,11 @@
+* {
+    background-color: #C1BE9F;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Great Vibes', cursive, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 5vw;
+}
