@@ -11,29 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
 </head>
 
-<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
-
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    ...
-  </div>
-</div>
-
 <div class="container">
     <header>
-        <h1>Follow Name's Journey</h1>
+        <h1>Follow [Name's] Journey</h1>
         <label for="progress" class="form-label center">Drag to reveal</label>
         <input type="range" class="form-range" id="progress" min="0" max="26" value="0">
         
     </header>
 
     <body>
-        <div id="bio" class="bio">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">About [Name]</button>
 
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-body">
+            <h2 id="offcanvasRightLabel">About [Name]</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium, voluptas suscipit et facilis quidem ullam blanditiis distinctio libero quam harum deserunt, quaerat est id ex nam, ad pariatur atque?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, esse, quae quibusdam perspiciatis distinctio voluptatem natus impedit nesciunt eaque ducimus eum rerum, aspernatur illum. Totam ab molestiae dignissimos dolorem amet.</p>
+        </div>
         </div>
 
         <div class="circle closed" id="point-start"></div>

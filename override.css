@@ -18,6 +18,20 @@ h1 {
     margin-right: 4vw;
 }
 
+.btn-primary {
+    position: fixed;
+    top: 5vh;
+    right: 5vw;
+}
+
+.offcanvas {
+    width: 20vw;
+}
+
+.offcanvas-body h2 {
+    margin-top: 7vh;
+}
+
 #progress {
     max-width: 25vw;
     margin-left: 1vw;
