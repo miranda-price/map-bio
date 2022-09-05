@@ -1,5 +1,6 @@
 * {
-    background-color: #C1BE9F;
+    background-color: #c6c4a9;
+    font-family: Montserrat, Roboto, sans-serif;
 }
 
 header {
@@ -13,28 +14,56 @@ header {
 
 h1 {
     font-size: 48px;
-    font-family: 'Great Vibes', cursive, sans-serif;
-    margin-bottom: 1vh;
     margin-right: 4vw;
+    font-family: Roboto, sans-serif;
+    color: #195861;
 }
 
 .btn-primary {
     position: fixed;
     top: 5vh;
     right: 5vw;
+    background-color: #a3515c;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #803a43;
+    border: none;
+}
+
+.card {border: none;}
+
+.card-header {
+    background-color: #50838B;
 }
 
 .offcanvas {
     width: 20vw;
 }
 
+.offcanvas-body > *, .offcanvas-body, .card-body { 
+    background-color: #C1D8DC;
+}
+
 .offcanvas-body h2 {
     margin-top: 7vh;
+    font-family: Roboto, sans-serif;
 }
 
 #progress {
-    max-width: 25vw;
+    max-width: 20vw;
     margin-left: 1vw;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #a3515c;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.form-range::-moz-range-thumb:focus, form-range::-moz-range-thumb:active, form-range::-moz-range-thumb:target, form-range::-moz-range-thumb:focus-within {
+    background-color: #cb7d88;
 }
 
 footer {
@@ -47,7 +76,7 @@ footer {
     width: 2vw;
     height: 2vw;
     border-radius: 2vw;
-    border: 3px solid black;
+    border: 3px solid #195861;
     position: fixed;
     z-index: 10;
 }
@@ -59,14 +88,14 @@ footer {
 }
 
 .closed {
-    background-color: black;
+    background-color: #195861;
 }
 
 .dash {
     position: fixed;
     height: 2vh;
     width: 3vw;
-    background-color: black;
+    background-color: #195861;
 }
 
 #point-start {
@@ -224,6 +253,7 @@ footer {
 #end1, #end2 {
     left: 71vw;
     top: 74vh;
+    background-color: #8B5058;
 }
 
 #end1 {rotate: 45deg;}
